@@ -47,14 +47,6 @@ fun MovieItem(movie: Movie, selectedMovie: (String) -> Unit) {
                     .size(68.dp, height = 88.dp)
                     .padding(4.dp),
             )
-//            Image(
-//                painter = rememberAsyncImagePainter(movie.moveCover),
-//                contentDescription = null,
-//                modifier = Modifier
-//                    .size(88.dp)
-//                    .padding(4.dp),
-//                contentScale = ContentScale.Crop
-//            )
             Column(
                 modifier = Modifier
                     .align(Alignment.Top)
